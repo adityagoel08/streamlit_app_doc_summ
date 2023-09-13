@@ -10,6 +10,9 @@ import numpy as np
 from num2words import num2words
 from PIL import Image
 from nltk.tokenize import word_tokenize
+import nltk
+
+nltk.download('punkt')
 
 pd.set_option('display.max_colwidth', None)
 
